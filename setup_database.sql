@@ -1,0 +1,10 @@
+
+CREATE DATABASE IF NOT EXISTS hustlehub;
+USE hustlehub;
+CREATE TABLE IF NOT EXISTS hustlers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  skills VARCHAR(255),
+  location VARCHAR(100),
+  contact VARCHAR(100)
+);
